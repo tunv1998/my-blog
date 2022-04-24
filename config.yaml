@@ -4,6 +4,11 @@ module:
       disable: false
 
 # config for blog
+
+baseurl: https://toladev.netlify.app/
+languageCode: en-us
+theme: hugo-theme-stack
+paginate: 5
 title: Tớ là Đép
 
 # GA Tracking ID
