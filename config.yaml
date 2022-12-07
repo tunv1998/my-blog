@@ -69,3 +69,8 @@ params:
 
     # Available values: auto, light, dark
     default: dark
+
+  taxonomies:
+    category: categories
+    series: series
+    tag: tags
