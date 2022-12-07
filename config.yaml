@@ -11,7 +11,7 @@ paginate: 5
 title: Tớ là Đép
 
 # GA Tracking ID
-googleAnalytics:
+googleAnalytics: G-700M6SJ4ZW
 
 permalinks:
   post: /p/:slug/
