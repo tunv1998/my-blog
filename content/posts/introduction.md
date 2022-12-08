@@ -1,6 +1,6 @@
 ---
 title: "Này, tớ là Đép"
-date: 2022-12-07T15:19:10+07:00
+date: 2022-01-01T15:19:10+07:00
 description: "Chào các bạn, tớ là Đép"
 tags:
   - tào lao
