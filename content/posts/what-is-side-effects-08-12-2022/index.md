@@ -5,7 +5,7 @@ date: 2022-12-08T23:34:03+07:00
 draft: false
 categories:
   - React
-  - Javascript
+  - javascript
 tags:
   - react
   - "pure function"
