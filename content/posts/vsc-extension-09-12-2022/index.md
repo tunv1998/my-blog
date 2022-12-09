@@ -8,6 +8,7 @@ categories:
 tags:
   - vsc
   - extension
+image: "intro.png"
 ---
 
 ## 1. Vim
