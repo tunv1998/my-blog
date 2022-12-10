@@ -14,6 +14,7 @@ keywords:
   - react
   - hooks
 image: "react-bg.png"
+series: "React Design Pattern"
 ---
 
 _Được dịch từ bài viết [React Design Patterns: You should know in 2023](https://aglowiditsolutions.com/blog/react-design-patterns/)_
