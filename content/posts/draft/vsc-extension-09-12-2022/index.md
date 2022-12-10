@@ -2,7 +2,7 @@
 title: "12 extension Visual Studio Code mình đã dùng trong năm 2022"
 description: "Các extensions của VSC mà mình đã dùng trong năm 2022"
 date: 2022-12-09T13:33:35+07:00
-draft: false
+draft: true
 categories:
   - "visual studio code"
 tags:

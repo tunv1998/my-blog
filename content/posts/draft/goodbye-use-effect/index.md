@@ -1,7 +1,7 @@
 ---
 title: "Goodbye useEffect"
 date: 2022-12-07T15:14:59+07:00
-draft: false
+draft: true
 description: "Tại sao bạn chẳng cần useEffect nhiều đến thế? được chia sẻ bởi David Khourshid tại ReactNext 2022"
 categories:
   - react

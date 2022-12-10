@@ -2,7 +2,7 @@
 title: "Pure Functions và Side Effects"
 description: "Pure Functions và Side Effects được biết đến như các khái niệm trong lập trình chức năng (functional programming)"
 date: 2022-12-08T23:34:03+07:00
-draft: false
+draft: true
 categories:
   - React
   - javascript

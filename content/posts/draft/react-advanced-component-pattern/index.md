@@ -10,6 +10,7 @@ categories:
 tags:
   - react
   - "design pattern"
+series: ["React Advanced Component Patterns"]
 ---
 
 Đây là bài viết tìm hiểu về `React Component Pattern` nằm trong chuỗi series [React Design Pattern Series](/categories/react-design-pattern-series)
