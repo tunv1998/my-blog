@@ -37,7 +37,7 @@ Với `Declarative` thì sẽ cho bạn cái bạn muốn (what) - một địa 
 
 Ta có thể thấy được các ngôn ngữ đang chia theo cách tiếp cận nào:
 
-**Imparative**
+**Imperative**
 
 - C
 - C++
@@ -70,16 +70,16 @@ function sum(a, b) {
 }
 ```
 
-Rõ ràng, đây là cách tiếp cận `Imparative`, bạn khai báo một hàm, đặt tên cho nó, trong hàm có 2 tham số `a, b` và nó sẽ trả về cho bạn tổng của 2 số đó.
+Rõ ràng, đây là cách tiếp cận `Imperative`, bạn khai báo một hàm, đặt tên cho nó, trong hàm có 2 tham số `a, b` và nó sẽ trả về cho bạn tổng của 2 số đó.
 
 Giả sử mình có yêu cầu sau
 
 _Viết 1 hàm tên là `add`, nhận vào một mảng số nguyên và trả về tổng của các phần tử trong đó._
 
-Và vì `Javascript` là ngôn ngữ có cả `Imparative` và `Declarative` nên ta hoàn toàn có 2 cách tiếp cận nó như sau:
+Và vì `Javascript` là ngôn ngữ có cả `Imperative` và `Declarative` nên ta hoàn toàn có 2 cách tiếp cận nó như sau:
 
 ```js
-// Imparative
+// Imperative
 function add(arr) {
   let result = 0;
   const len = arr.length;
@@ -101,7 +101,7 @@ function add(arr) {
 
 ## Tổng kết
 
-**Imparative**
+**Imperative**
 
 - Quen thuộc
 - Dễ học
