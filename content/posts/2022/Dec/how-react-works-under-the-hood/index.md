@@ -82,6 +82,34 @@ _How DOM updated in react (src: geeksforgeeks)_
 
 Ract dùng thuật toán heuristic hay gọi là thuật toán Diffing để so sánh sự khác nhau.
 
+React kiểm tra phần tử gỗc để thay đổi và cập nhật dựa trên `type` của element
+
+React không thực hiện nhiều tính toán ở những phần diffing, React giả sử rằng nếu parent thay đổi, thì child chắn chắn sẽ thay đổi.
+
+Ví dụ
+
+```jsx
+<div className="class">
+  <p>I did not change</p>
+</div>
+```
+
+Và nếu ta thay đổi `type` của thẻ `div`
+
+```jsx
+<p className="class">
+  <p>I did not change</p>
+</p>
+```
+
+Mặc dù ta không cần tạo lại thẻ `p`, nhưng React sẽ không biết khi duyệt cây từ trên xuống. Vì vậy, React quyết định hủy toàn bộ children và khởi tạo lại từ đầu.
+
+Trong trường hợp phần tử có cùng type, React sẽ kiểm tra đến các thuộc tính. Sau đó mới cập nhật các nodes có thay đổi. Component sex được cập nhật vào lifecycle tiếp theo. Và đây cũng là lí do tại sao ta **bắt buộc** có thuộc tính `key` trong list render, để React có thể dễ dàng xác định các cập nhật trong các phần tử.
+
+## Tổng kết
+
+Hi vọng bài viết này đã đủ để nói về khái niệm về cách mà React đang hoạt động.
+
 ## Tham khảo
 
 [React under the hood - FreeCodeCamp](https://www.freecodecamp.org/news/react-under-the-hood/)
